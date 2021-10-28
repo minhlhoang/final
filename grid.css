@@ -1,0 +1,227 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Roboto Mono', monospace;
+	color: #5F6F91;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Ubuntu', sans-serif;
+	color: #1E266D;
+}
+p{
+	line-height: 150%;
+}
+
+.bg-primary{
+	background-color: #3451F7
+}
+.bg-secondary{
+	background-color: #FD5285
+}
+.text-primary{
+	color: #3451F7 !important;
+}
+.bg-success{
+	background: #FC0091;
+}
+.bg-error{
+	background: #01FF24;
+}
+.bg-info{
+	background: #C8F800;
+}
+.bg-secondary-opacity{
+	color: #F9F3FE;
+}
+.text-secondary{
+	color: #FD5285;
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.col-1{
+	width: 8.33%;
+}
+.col-2{
+	width: 16.66%;
+}
+.col-3{
+	width: 25%;
+}
+.col-4{
+	width: 33.33%;
+}
+.col-5{
+	width: 41.66%;
+}
+.col-6{
+	width: 50%;
+}
+
+.col-7{
+	width: 58.33%;
+}
+.col-8{
+	width: 66.66%;
+}
+.col-9{
+	width: 75%;
+}
+.col-10{
+	width: 83.33%;
+}
+.col-11{
+	width: 91.66%;
+}
+.col-12{
+	width: 100%
+}
+.col-13{
+	width: 50%;
+}
+.col-14{
+	width: 100%
+}
+.p-1{
+	padding: 4px;
+}
+.pt-1{
+	padding-top: 4px;
+}
+.pb-1{
+	padding-bottom: 4px;
+}
+.pl-1{
+	padding-left: 4px;
+}
+.pr-1{
+	padding-right: 4px;
+}
+.px-1{
+	padding: 0 4px;
+}
+.py-1{
+	padding: 4px 0;
+}
+.p-2{
+	padding: 8px;
+}
+.p-3{
+	padding: 12px;
+}
+.px-4{
+	padding: 0 12px;
+}
+.py-4{
+	padding: 12px 0;
+}
+.py-8{
+	padding: 32px 0;
+}
+.pt-8{
+	padding-top: 32px;
+}
+.pb-8{
+	padding-bottom: 32px;
+}
+.px-8{
+	padding: 0 32px;
+}
+.p-10{
+	padding: 40px;
+}
+.mt-8{
+	margin-top: 80px;
+}
+.pr-10{
+	padding-right: 60px;
+}
+.pl-10{
+	padding-left: 60px;
+}
+.px-10{
+	padding: 0 60px;
+}
+/*margin*/
+.m-1{
+	margin: 4px;
+}
+.mt-1{
+	margin-top: 4px;
+}
+.mb-1{
+	margin-bottom: 4px;
+}
+.ml-1{
+	margin-left: 4px;
+}
+.mr-1{
+	margin-right: 4px;
+}
+.mx-1{
+	margin: 0 4px;
+}
+.my-5{
+	margin: 4px 0;
+}
+.mx-auto{
+	margin:  0 auto;
+}
+.justify-between{
+	justify-content: space-between;
+}
+.justify-center{
+	justify-content: center;
+}
+.align-s-center{
+	align-self: flex-end;
+}
+.align-s-center{
+	align-self: center;
+}
+.text-right{
+	text-align: right;
+}
+.text-center{
+	text-align: center;
+}
+.btn{
+	padding: 8px 20px;
+	text-decoration: none;
+	color: #1B1A1A;
+/*	background: grey;*/
+	border-radius: 20px;
+}
+.btn-primary{
+	background-color: #10102A;
+	color: white;
+}
+.btn-secondary{
+	background-color: #E40004;
+	color: white;
+	
+}
+.btn-three{
+	background-color: #E40004;
+	color: white;
+}
+.btn-white{
+	background-color: white;
+	box-shadow: 2px 5px 10px 5px rgba(0,0,0,0.10);
+}
+.bg-icon-2{
+	background-color: #F8AEC3;
+}
+.bg-icon-3{
+	background-color: #C1AEF8;
+}

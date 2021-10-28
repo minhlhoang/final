@@ -1,0 +1,225 @@
+@charset "utf-8";
+/* CSS Document */
+#wrapper{
+	overflow-x: scroll;
+	scroll-behavior: smooth;
+}
+.header{
+	padding: 24px 0;
+/*	background: pink;*/
+	position: absolute;
+	z-index: 1000;
+	width: 100%;
+}
+.logo img{
+	width: 100%;
+	float: left;
+}
+.menu ul{
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+}
+.menu li a{
+	text-decoration: none;
+	color: white;
+}
+.menu li{
+	margin:  0 20px;
+}
+.menu li a:hover{
+	color: #0076EE;
+}
+.banner{
+	height: 100vh;
+	position: relative
+}
+.banner img{
+	width: 100%;
+	height: 100vh;
+	object-fit: cover;
+}
+.col-6{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+/*	text-align: center;*/
+/*	background: rgba(4,4,4,1.00);*/
+	color: white;
+	margin: 24px 0 72px;
+	line-height: 500%
+}
+.col-6 h1{
+	color: white;
+}
+.content p{
+	margin:  20px 0 32px;
+}
+/*new*/
+.services{
+	padding: 75px 0;
+	background-color: #090808
+}
+.card img{
+	width: 100%;
+/*	border-radius: 20px;*/
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.col-12 h1{
+	color: white;
+}
+.col-3{
+	position: absolute;
+	text-align: center;
+/*	background: rgba(4,4,4,1.00);*/
+	color: white;
+	margin: 20px 0 70px;
+	transition: transform 0.5s;
+}
+.col-3 h1{
+	font-size: 100%;
+	color: white;
+	position: absolute;
+	margin-right: 200px
+}
+.card:hover{
+	transform: scaleY(10px)
+}
+.your-digital{
+/*	padding: 70px 0;*/
+	background: #090808;
+}
+.digital-card{
+	padding: 32px 32px 48px;
+	-webkit-box-shadow: 2px 1px 16px 3px rgba(0,0,0,0.26);
+	box-shadow: 2px 1px 16px 3px rgba(0,0,0,0.26);
+	border-radius: 20px;
+}
+.digital-image{
+	height: 300px;
+	overflow: hidden;
+}
+.digital-image img{
+	width: 100%;
+	border-radius: 20px;
+}
+.digital-card p{
+	margin: 15px 0 8px;
+}
+.digital-title{
+	color: white;
+}
+.digital-card h2{
+	color: white
+}
+/*about*/
+.about-us{
+	padding: 75px 0;
+	background: #090808;
+}
+.about-img{
+	width: 550px;
+/*	height:  550px;*/
+/*	border-radius: 50%;*/
+	overflow: hidden;
+/*	background: #BFDDFE;*/
+	padding-bottom: 70px;
+}
+.about-img img{
+	width: 100%;
+}
+.about-content h1{
+	margin: 5px 0 20px;
+	color: white;
+	
+}
+.about-content p{
+	margin-bottom: 10px;
+}
+/*tuyen dung*/
+.tuyendung{
+/*	padding: 75px 0;*/
+	background: #090808;
+}
+.hinhriot{
+	width: 650px;
+	height:  650px;
+	overflow: hidden;
+}
+.hinhriot img{
+	width: 100%;
+}
+.thongtin h1{
+	margin: 120px 0 20px;
+	color: white;
+	text-align: center
+}
+.thongtin p{
+	margin-bottom: 30px;
+	text-align: center;
+}
+.btn-three{
+margin-left: 210px
+}
+/*footer*/
+.footer-basic {
+  padding:40px 0;
+  background-color:#090808;
+  color:#4b4c4d;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:#5F6F91;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+/*  border:1px solid #ccc;*/
+  margin:0 8px;
+  color:#5F6F91;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#5F6F91;
+  margin-bottom:0;
+}
+
